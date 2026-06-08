@@ -32,7 +32,7 @@ if current_day in ["Saturday","Sunday"]:
 else:
     day_msg = f"Today is {current_day} go on work"
 print("\n" + "-"*30)
-print("Hello",greeting,name)
+print("Hello",name,greeting)
 print("Message:",message)
 print("Time:",exact_time)
 print("Date:",current_date)
