@@ -10,4 +10,4 @@ price = 49.454567
 txt = F"For Only {price: .2f}"#.2f mean it show only two digits after decimal
 print(txt)
 print(f"{2 * 50}")#100
-print(type(f"{2 * 14}"))#String
+print(type(f"{2 * 14}"))#String 
