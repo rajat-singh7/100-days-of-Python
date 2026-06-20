@@ -23,4 +23,3 @@ for num in array:
         happiness -=1
 print()
 print(happiness)
-#
