@@ -31,16 +31,17 @@ while play_game:
             print("It's a Draw!")
         elif user_input == "snake" and computer_choice == "water":
             print("You Win! Snake drinks water")
+            user_score += 1
         elif user_input == "water" and computer_choice == "gun":
             print("You Win! Water destroys Gun")
+            user_score += 1
         elif user_input == "gun" and computer_choice == "snake":
             print("You Win! Gun kills snake")
             user_score += 1
         else:
             print("Computer Wins! One Chance lost.")
             computer_score += 1
-
-        chances -= 1
+            chances -= 1
 
         if chances == 0:
             print("=====================")
